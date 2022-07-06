@@ -1,0 +1,507 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+    justify-content: space-between;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: rgb(233, 233, 233);
+    height: 1000vh;
+    width: 60vh;
+    margin-left: 35%;
+}
+
+.profile-name{
+    margin-top: 0%;
+}
+
+.cover{
+    border-style: none;
+    height: 200px;
+    width: 95%;
+    margin: 10px;
+
+}
+
+.cover-pic{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cam-bg{
+    border: 2px solid rgb(247, 243, 243);
+    background-color: rgb(231, 236, 241);
+    border-radius: 50%;
+    float:  right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 50px;
+    height: 37px;
+    width: 40px;
+    cursor: pointer;
+}
+.cam{
+    z-index: 1;
+    height: 17px;
+    width: 22px;
+    margin: 10px;
+    margin-left: 9px;
+}
+
+.profile-pic{
+    border: 5px solid rgb(253, 252, 251);
+    border-radius: 50%;
+    position: relative;
+    bottom: 110px;
+    height: 200px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.cam1-bg{
+    border: 2px solid rgb(247, 243, 243);
+    background-color: rgb(231, 236, 241);
+    border-radius: 50%;
+    float:  right;
+    position: relative;
+    top: 40px;
+    right: 40px;
+    height: 37px;
+    width: 40px;
+    cursor: pointer;
+}
+.cam1{
+    z-index: 1;
+    height: 17px;
+    width: 22px;
+    margin: 10px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.pro-name{
+    position: relative;
+    top: -130px;
+    left: 30%;
+    font-size: 25px;
+}
+
+.bio{
+    position: relative;
+    top: -150px;
+    left: 40%;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.function-2{
+    position: relative;
+    top: -150px;
+}
+
+.add-story{
+    background-color: rgb(23, 23, 172);
+    border: none;
+    border-radius: 15%;
+    height: 35px;
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+
+.edit-pro{
+    background-color: rgb(196, 196, 196);
+    color: white;
+    border: none;
+    border-radius: 15%;
+    height: 35px;
+    width: 150px;
+    margin-top: -45px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+#add{
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.add-text{
+    color: white;
+    position: relative;
+    bottom: 13px;
+    right: 8px;
+}
+
+#edit{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.edit-text{
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 12px;
+    left: -5px;
+    font-weight: 600;
+}
+
+.more{
+    float: right;
+    border: none;
+    border-radius: 20%;
+    background-color: rgb(196, 196, 196);
+    height: 32px;
+    width: 40px;
+    position: relative;
+    bottom: 33px;
+    margin-right: 10px;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+}
+
+.under-1{
+    position: relative;
+    top: -140px;
+    margin-left: 10px;
+    border-top:1px solid rgb(206, 204, 204);
+    width: 95%;
+    justify-content: center;
+}
+
+.work{
+    margin-left: 10px;
+    position: relative;
+    bottom: 130px;
+    padding-bottom: 20px;
+}
+
+#work{
+    position: absolute;
+    top: -15px;
+    margin-left: 15px;
+    width: 80%;
+}
+
+.borders{
+    display: flex;
+    position: relative;
+    top: -130px;
+    left: 10px;
+}
+.border-one{
+    border: none;
+    background-color: rgb(189, 189, 189);
+    height: 100px;
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+#plus{
+    margin: 35%;
+    margin-top: 40px;
+}
+
+.border-two{
+    border: none;
+    background-color: rgb(189, 189, 189);
+    height: 100px;
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.border{
+    border-radius: 10%;   
+}
+
+.tx{
+    position: relative;
+    top: -160px;
+    font-size: 11px;
+    padding: 30px;
+}
+
+.tx-new{
+    margin-right: 40px;
+}
+
+.blue-border{
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(202, 202, 228);
+    color: rgb(14, 14, 151);
+    height: 30px;
+    width: 360px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.under-2{
+    position: relative;
+    top: 10px;
+    margin-left: -20px;
+    border-top:1px solid rgb(206, 204, 204);
+    width: 355px;
+}
+
+.friend{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+}
+
+.find-friends{
+    color: blue;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    height: 400px; 
+    width: 360px; 
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.pic-cont{
+    background-color: #fff;
+    border-radius: 10%;
+    height: 170px;
+    width: 113px;
+}
+
+#picture-cont{
+    height: 120px;
+    width: 10px;
+}
+
+#name{
+    display: block;
+    position: relative;
+    top: 0%;
+    padding: 10px;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    height: 400px; 
+    width: 360px; 
+    margin-left: -20px;
+    margin-top: -200px;
+}
+
+
+.gray-border{
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(192, 192, 192);
+    color: black;
+    height: 30px;
+    width: 360px;
+    position: relative;
+    margin-left: -20px;
+    top: -220px;
+    
+}
+
+.under-3{
+    position: relative;
+    top: -200px;
+    margin-left: -20px;
+    border-top:1px solid rgb(206, 204, 204);
+    width: 355px;
+}
+
+.posts{
+    display: flex;
+    margin-top: -180px;
+    margin-left: -20px;
+    justify-content: space-between;
+}
+
+#posts{
+    font-size: 3.5vh;
+}
+
+#filter{ 
+    color: rgb(55, 55, 223);
+    font-size: 16px;
+    font-weight: 60px;
+    position: relative;
+    left: 15px;
+}
+
+.pro-pic{
+    display: flex;
+}
+
+.mini-pic{
+    border: 5px solid rgb(233, 233, 233);
+    border-radius: 50%;
+    position: relative;
+    height: 30px;
+    margin-left: -25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#idea{
+    position: relative;
+    top: 15px;
+}
+
+.under-4{
+    position: relative;
+    top: 10px;
+    margin-left: -20px;
+    border-top:1px solid rgb(206, 204, 204);
+    width: 355px;
+}
+
+.gray-border1{
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(192, 192, 192);
+    color: black;
+    height: 30px;
+    width: 360px;
+    position: relative;
+    margin-left: -20px;
+    top: 20px;
+    
+}
+
+#manage{
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+
+.under-5{
+    position: relative;
+    top: 40px;
+    margin-left: -30px;
+    border:1 none;
+    background-color: rgb(192, 192, 192);
+    height: 10px;
+    width: 380px;
+}
+
+.function-3{
+    position: relative;
+    top: 60px;
+    margin-left: -20px;
+    
+}
+
+.func-3{
+    padding-right: 10px;
+    border: none;
+    background-color:  rgb(192, 192, 192);
+    border-radius: 25%;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.text{
+    justify-content: center;
+    font-size: 12px;
+    position: relative;
+    bottom: 2px;
+}
+
+.pro-pic1{
+    display: flex;
+    position: relative;
+    top: 75px;
+}
+
+.mini-pic1{
+    border: 5px solid rgb(233, 233, 233);
+    border-radius: 50%;
+    position: relative;
+    height: 30px;
+    margin-left: -25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#txt{
+    position: relative;
+    top: 10px;
+}
+
+.dot1{
+    position: relative;
+    right: -90px;
+    top: 5px;
+}
+
+.profile-pic1{
+    border: 5px solid rgb(253, 252, 251);
+    border-radius: 50%;
+    position: relative;
+    bottom: 110px;
+    height: 300px;
+    top: 20px;
+    cursor: pointer;   
+}
+
+.under-6{
+    position: relative;
+    top: 120px;
+    margin-left: -20px;
+    border-top:1px solid rgb(206, 204, 204);
+    width: 355px;
+}
+
+.function-4{
+    flex: content ;
+    border: none;
+    height: 30px;
+    width:100%;
+    justify-content: space-between;
+    position: relative;
+    top: 120px;
+}
+
+.like-pic{
+    border: none;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    top: 6px;
+    margin-right: 25px;
+}
+
+.textt{
+    position: relative;
+    top: -5px;
+    margin-left: 3px;
+}
+.under-7{
+    position: relative;
+    top: 140px;
+    margin-left: -30px;
+    border:1 none;
+    background-color: rgb(192, 192, 192);
+    height: 10px;
+    width: 380px;
+}
